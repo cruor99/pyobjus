@@ -1,3 +1,4 @@
+ulng = ctypes.c_ulong
 if PLATFORM == 'darwin':
     ulng = ctypes.c_ulonglong
 
